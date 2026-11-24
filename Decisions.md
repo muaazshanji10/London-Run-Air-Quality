@@ -8,7 +8,14 @@ Decisions.md
 - Upon investigating the website I have found that there is no API key and that it is an entirely free accessible API, and so when we call the API there is one main link and then a guide breaking down every endpoint.
 - I have created my git repo, I will now begin my aboutme with the following sections: What I built and who for, The data, How it works, How to run it, What I would do next, Where AI helped.
 - I also need to read more into the website to decide what data I need and what sitecode is relevant for areas I run in.
-- The brief says that we must build a growing data with history, ensuring that there are no duplicates whenever the data is run. This suggests that previous data should be stored on the streamlit website.
+- The brief says that we must build a growing data with history, ensuring that there are no duplicates whenever the data is run. This suggests that previous data should be stored.
 - This will be important when deciphering what time range of data is significant for the information we present.
-
+- First step will be to download the relevant packages needed on my vscode in order to actually call the API.
+- I will need requests package, duckdb package, 
+- Once I can call the API, I will utilise the endpoints guide to call the nested json describing the list of locations and I will then indent that list so its clearer to see.
+- I can then utilise that list to see which areas that I run in have data so that I can decide which area I want to gather data for to be kinder to the API (ie not a massive data call reducing it to a smaller radius.)
+- Once I have done that I will try to understand which metrics are relevant in shaping what my threshold for whether its safe to run is, and if there are varying levels (ie its safe to run, safe to run but only for a certain amount of time, better not to run, not safe to run) demonstraing risk.
+- Each endpoint provides different individual bits of information so I must also utilise SQL to knit relevant endpoints together to provide the big holistic picture
+- Once that is achieved I will then need to understand how I am calling the API so that each run doesn't duplicate data that has already been called upon and simply adds to the data files saved and committed on git. 
+- I will then call the relevant data and use SQL to clean the pipeline and produce the useful output for my audience. 
 
