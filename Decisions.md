@@ -11,11 +11,13 @@ Decisions.md
 - The brief says that we must build a growing data with history, ensuring that there are no duplicates whenever the data is run. This suggests that previous data should be stored.
 - This will be important when deciphering what time range of data is significant for the information we present.
 - First step will be to download the relevant packages needed on my vscode in order to actually call the API.
-- I will need requests package, duckdb package, 
+- I will need requests package, duckdb package etc
 - Once I can call the API, I will utilise the endpoints guide to call the nested json describing the list of locations and I will then indent that list so its clearer to see.
 - I can then utilise that list to see which areas that I run in have data so that I can decide which area I want to gather data for to be kinder to the API (ie not a massive data call reducing it to a smaller radius.)
 - Once I have done that I will try to understand which metrics are relevant in shaping what my threshold for whether its safe to run is, and if there are varying levels (ie its safe to run, safe to run but only for a certain amount of time, better not to run, not safe to run) demonstraing risk.
 - Each endpoint provides different individual bits of information so I must also utilise SQL to knit relevant endpoints together to provide the big holistic picture
 - Once that is achieved I will then need to understand how I am calling the API so that each run doesn't duplicate data that has already been called upon and simply adds to the data files saved and committed on git. 
 - I will then call the relevant data and use SQL to clean the pipeline and produce the useful output for my audience. 
-
+- I will first create a list of all the relevant packages needed called requirements.txt
+- Added the relevant packages and a jupyter notebook with the correct virtual environemtn installing all relevant packages. 
+- Intend to call the API for the relveant sites raw, then indent them to understand better the structure of the nested JSON and what locations that data is at so I can decide my locations.
