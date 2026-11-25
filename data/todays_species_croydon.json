@@ -1,0 +1,50 @@
+{
+  "DailyAirQualityIndex": {
+    "@MonitoringIndexDate": "2026-11-24 00:00:00",
+    "@TimeToLive": "56",
+    "LocalAuthority": {
+      "@LocalAuthorityCode": "8",
+      "@LocalAuthorityName": "Croydon",
+      "@LaCentreLatitude": "51.372361",
+      "@LaCentreLongitude": "-0.100401",
+      "@LaCentreLatitudeWGS84": "6687426.268766",
+      "@LaCentreLongitudeWGS84": "-11176.588195",
+      "Site": [
+        {
+          "@BulletinDate": "2026-11-24 00:00:00",
+          "@SiteCode": "CR5",
+          "@SiteName": "Croydon - Norbury",
+          "@SiteType": "Kerbside",
+          "@Latitude": "51.411349",
+          "@Longitude": "-0.12311",
+          "@LatitudeWGS84": "6694381.70052",
+          "@LongitudeWGS84": "-13704.5425116",
+          "Species": {
+            "@SpeciesCode": "NO2",
+            "@SpeciesDescription": "Nitrogen Dioxide",
+            "@AirQualityIndex": "1",
+            "@AirQualityBand": "Low",
+            "@IndexSource": "Measurement"
+          }
+        },
+        {
+          "@BulletinDate": "2026-11-24 00:00:00",
+          "@SiteCode": "CR9",
+          "@SiteName": "Croydon - Park Lane",
+          "@SiteType": "Roadside",
+          "@Latitude": "51.3739530635378",
+          "@Longitude": "-0.0967638468323854",
+          "@LatitudeWGS84": "6687714.0876655",
+          "@LongitudeWGS84": "-10771.7986892368",
+          "Species": {
+            "@SpeciesCode": "NO2",
+            "@SpeciesDescription": "Nitrogen Dioxide",
+            "@AirQualityIndex": "1",
+            "@AirQualityBand": "Low",
+            "@IndexSource": "Measurement"
+          }
+        }
+      ]
+    }
+  }
+}

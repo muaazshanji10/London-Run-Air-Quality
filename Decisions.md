@@ -21,3 +21,12 @@ Decisions.md
 - I will first create a list of all the relevant packages needed called requirements.txt
 - Added the relevant packages and a jupyter notebook with the correct virtual environemtn installing all relevant packages. 
 - Intend to call the API for the relveant sites raw, then indent them to understand better the structure of the nested JSON and what locations that data is at so I can decide my locations.
+- Called the data raw and then indented it, saw that there were 33 authorities each with a name but each site had multiple sites and so will utilise sql to whittle down the 33 different sites see which align with my areas.
+- Of the 33 only Sutton, Merton and Croydon were areas I ran in
+- I now wanted to see how many monitoring sites each had to see how comprehensive my data could be
+- Croydon has 9, sutton has 9 and merton has 8 all high numbers relative to the rest of the sample and so it indicates sufficient data will be provided
+- Next I must research which pollutants actually matter for running
+- Going to do what we did for the sites but for the types of pollutants
+- Having seen the types of pollutants I need to confirm which my sites measure
+- From this I figured out Sutton has no open data only Croydon and Merton do
+- Now I intend to zoom in on what species is actually tracked at those open sites
