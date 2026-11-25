@@ -30,3 +30,5 @@ Decisions.md
 - Having seen the types of pollutants I need to confirm which my sites measure
 - From this I figured out Sutton has no open data only Croydon and Merton do
 - Now I intend to zoom in on what species is actually tracked at those open sites
+- I will then utilise this to note what pollutants are relevant and will contribute to my metric 
+- I will do this by filtering using SQL for only open sites
